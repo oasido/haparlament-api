@@ -1,0 +1,20 @@
+{
+  "name": "haparlament-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ofek Asido",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.182",
+    "fastify": "^4.2.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.5",
+    "typescript": "^4.7.4"
+  }
+}
