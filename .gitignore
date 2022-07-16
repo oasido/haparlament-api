@@ -1,5 +1,4 @@
 node_modules
 
 # ignore built files
-index.js
-sentences.js
+*.js
