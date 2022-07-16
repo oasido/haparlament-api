@@ -19,6 +19,13 @@ const SentencesRoute = (
     }
   });
 
+  fastify.get('/api/sentences', async (req: Params, res) => {
+    try {
+      res.send('You need to specify an amount, e.g: /api/sentences/10');
+    } catch (error) {
+      console.error(error);
+      res.send('An error occurred.');
+    }
   });
 
   done();
