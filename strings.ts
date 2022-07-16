@@ -1,6 +1,4 @@
-export type Sentence = string[];
-
-export const sentences: Sentence = [
+export const strings: string[] = [
   'זה הצבוע, החיה הכי מסריחה בטיבע.',
   'מה זה אבא אתה עם השיניים הלבנות?',
   'אבא, תזכיר לי מחר לרכוש רעל!',

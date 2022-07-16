@@ -4,11 +4,13 @@
   "main": "index.js",
   "author": "Ofek Asido",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "node index.js"
   },
   "dependencies": {
+    "@fastify/autoload": "^5.1.0",
     "@types/lodash": "^4.14.182",
     "fastify": "^4.2.1",
     "lodash": "^4.17.21"
