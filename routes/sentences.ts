@@ -10,8 +10,15 @@ const SentencesRoute = (
   done: DoneFuncWithErrOrRes
 ) => {
   fastify.get('/api/sentences/:amount', async (req: Params, res) => {
-    const { amount } = req?.params;
-    res.send(sampleSize(strings, amount));
+    try {
+      const { amount } = req?.params;
+      res.send(sampleSize(strings, amount));
+    } catch (error) {
+      console.error(error);
+      res.send('An error occurred.');
+    }
+  });
+
   });
 
   done();

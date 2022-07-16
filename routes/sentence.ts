@@ -7,8 +7,13 @@ const SentenceRoute = (
   done: DoneFuncWithErrOrRes
 ) => {
   fastify.get('/api/sentence', async (req, res) => {
-    const randomIndex = Math.floor(Math.random() * strings.length);
-    res.send(strings[randomIndex]);
+    try {
+      const randomIndex = Math.floor(Math.random() * strings.length);
+      res.send(strings[randomIndex]);
+    } catch (error) {
+      console.error(error);
+      res.send('An error occurred.');
+    }
   });
 
   done();
