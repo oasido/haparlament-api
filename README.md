@@ -4,13 +4,11 @@
 
 Haparlament-API is a simple API that spits out random unforgettable sentences from the Israeli comedy TV show, [Haparlament / הפרלמנט](https://he.wikipedia.org/wiki/%D7%94%D7%A4%D7%A8%D7%9C%D7%9E%D7%A0%D7%98).
 
-## Installation
-
-Clone this project, `cd` into it and;
-
-`yarn install && yarn build && yarn start`
-
 ## Usage
+
+**The API is live for your convenience on `https://haparlament.ofekasido.xyz/`**
+
+Get a random sentence by visiting `https://haparlament.ofekasido.xyz/api/sentence`
 
 ### **URL**
 
@@ -37,6 +35,12 @@ Missing amount of sentences (e.g: GET `/api/sentences/`)
 
 - **Code:** `422 UNPROCESSABLE ENTRY` <br />
   **Content:** `You need to specify an amount, e.g: /api/sentences/10`
+
+## Installation
+
+If you want to run this project on your own. Clone this project, `cd` into it and;
+
+`yarn install && yarn build && yarn start`
 
 ## Contributing
 
