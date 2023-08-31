@@ -9,7 +9,7 @@ Haparlament-API is a simple API that spits out random unforgettable sentences fr
 **The API is live for your convenience!**
 
 Get a random sentence by visiting [https://haparlament.ofekasido.xyz/api/sentence](https://haparlament.ofekasido.xyz/api/sentence)
-
+(API was shutdown on the 31st of August)
 ### **URL**
 
 | METHOD | URL                | RESPONSE           |
